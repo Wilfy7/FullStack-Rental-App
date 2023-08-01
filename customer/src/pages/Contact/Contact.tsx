@@ -6,6 +6,7 @@ const Contact = () => {
   const publicUrl = process.env.PUBLIC_URL;
 
   return (
+    <div className="">
     <div
       style={{
         backgroundImage:
@@ -14,7 +15,7 @@ const Contact = () => {
         backgroundSize: "cover",
         backgroundPosition: "center center",
         width: "100%",
-        height: "70vh",
+        height: "55vh",
       }}
       className="maplinestyles"
     >
@@ -24,14 +25,16 @@ const Contact = () => {
           fontWeight: "800",
           letterSpacing: "2px",
           paddingBottom: "12rem",
-          marginTop: "17rem",
+          paddingTop:"18rem",
+          paddingLeft:"7rem"
         }}
       >
         Contact
       </h1>
-      <div className="container maplistyles">
+      </div>
+      <div className="container maplistyles" style={{paddingTop:"8rem"}}>
         <div className="row">
-          <div className="col">
+          <div className="col-6">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47735.69421189946!2d-0.15923610119221684!3d5.691746398958357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf836a25eb6255%3A0xa132f6833cba6e8e!2sadjiringanor%20Ability%20Square%20Down!5e0!3m2!1sen!2sgh!4v1686085904149!5m2!1sen!2sgh"
               width="620"
@@ -43,8 +46,8 @@ const Contact = () => {
             ></iframe>
           </div>
 
-          <div className="container col contactnow">
-            <div className="">
+          <div className="col contactnow">
+            <div className="col-6">
               <h3>Contact Now</h3>
               <form className="row">
                 <div mb-3>
@@ -79,7 +82,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <div className="">
+                <div className="" style={{paddingTop:"20px"}}>
                   <label htmlFor="comment" className="form-label"></label>
                   <textarea
                     className="form_control"
@@ -88,8 +91,7 @@ const Contact = () => {
                     rows={3}
                   ></textarea>
                 </div>
-              </form>
-              <div className="">
+                <div className="">
                 <button
                   style={{ backgroundColor: "#ECA760", color: "#fff" }}
                   className="btn"
@@ -98,6 +100,7 @@ const Contact = () => {
                   Submit
                 </button>
               </div>
+              </form>
             </div>
           </div>
         </div>

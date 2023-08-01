@@ -1,21 +1,14 @@
 
-.contactnow__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .contactnow {
-    background-color: white;
     position:relative;
     height: 390px;
-    width: 100px;
+    width: 60px;
+    background-color: #fff;
     font-weight: 500;
     padding-top: 1.5rem;
-    padding-left: 1rem;
-    margin-left: 1rem;
-    margin-top: 2rem;
-    border-radius: 15px;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    border-radius: 15px; 
 }
 
 .responsive__map {
@@ -23,10 +16,8 @@
     position: relative;
     height: 40rem;
     margin-right: 2rem;
-    margin-top: 10rem;
+    margin-top: 0rem;
     cursor: pointer;
-    
-}
 
 .map__iframe {
     left: 0;
@@ -35,13 +26,12 @@
     height: 100%;
     width:100%;
     position: absolute;
-}
 
 .maplinestyles {
     padding: 8rem 8rem;
     margin-bottom: 28rem;
-   
-   
+}
+}
 }
 
 .contactform {
@@ -50,9 +40,8 @@
 
 .input__gaps{
     padding: 0rem 2rem;
-    
-    
 }
-.btn__submit {
 
+.contcolor{
+   background-color: rgba(204, 201, 201, 0.954) ;
 }
